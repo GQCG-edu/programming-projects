@@ -67,7 +67,9 @@ $$e^z_{ij} = - \frac{z_i - z_j}{R_ij}$$
 
 Calculate all possible out-of-plane angles. For example, the angle $\theta_{ijkl}$ for atom i out of the plane containing atoms j-k-l (with k as the central atom, connected to i) is given by
 
-$$ \sin \theta_{ijkl} = \frac{ \mathbf{e}_{kj} \times \mathbf{e}_{kl} }{ \sin \phi_{jkl} } \cdot \mathbf{e}_{ki} $$
+<p>$$ 
+\sin \theta_{ijkl} = \frac{ \mathbf{e}_{kj} \times \mathbf{e}_{kl} }{ \sin \phi_{jkl} } \cdot \mathbf{e}_{ki} 
+$$</p>
 
 - [Hint 1](./hints/hint4-1.md): Memory allocation?
 - [Hint 2](./hints/hint4-2.md): Cross products
