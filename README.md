@@ -7,6 +7,8 @@ This repo gathers several [projects](projects/README.md) that are aimed at provi
 <img src="img/toc.webp" width="500">
 </p>
 
+> :exclamation: Warning :exclamation: : Due to a bug in the Github Markdown parser, some equations will not be formatted correctly in the browser. However, if you follow the instructions below and view the rendered Markdown code in VSCode by clicking on <img src="img/preview.png" width="40">, all equations will be formatted correctly.
+
 ## Setup
 
 We have preconfigured a development environment that contains everything you need to complete the projects. To use this development environment, you need to install two packages
