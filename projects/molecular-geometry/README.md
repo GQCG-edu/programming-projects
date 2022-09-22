@@ -46,7 +46,7 @@ where x, y, and z are Cartesian coordinates and i and j denote atomic indices.
 
 Calculate all possible bond angles. For example, the angle, $\phi_{ijk}$, between atoms i-j-k, where j is the central atom is given by
 
-$\cos \phi_{ijk} = \mathbf{e}_{ji} \cdot \mathbf{e}_{jk}$
+$$\cos \phi_{ijk} = \mathbf{e}_{ji} \cdot \mathbf{e}_{jk}$$
 
 where the $\mathbf{e}_{ij}$ are unit vectors between the atoms, e.g.
 
