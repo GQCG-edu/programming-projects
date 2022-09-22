@@ -115,7 +115,9 @@ $$ I_{xy} = \sum\limits_i m_i x_i y_i, \quad I_{xz} = \sum\limits_i m_i x_i z_i,
 
 Diagonalize the inertia tensor to obtain the principal moments of inertia:
 
-$$ I_a \leq I_b \leq I_c $$ 
+$$ I_a \leq I_b \leq I_c $$
+
+$\require{mediawiki-texvc}$
 
 Report the moments of inertia in amu bohr<sup>2</sup>, amu $\AA^2$, and g cm<sup>2</sup>.
 
