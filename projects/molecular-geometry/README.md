@@ -77,7 +77,7 @@ $$ \sin \theta_{ijkl} = \frac{ \mathbf{e}_{kj} \times \mathbf{e}_{kl} }{ \sin \p
 
 Calculate all possible torsional angles. For example, the torsional angle $\tau_{ijkl}$ for the atom connectivity i-j-k-l is given by
 
-$$ \cos \tau_{ijkl} = \frac{( \boldsymbol{e}_{ij} \times \mathbf{e}_{jk}) \cdot ( \mathbf{e}_{jk} \times \mathbf{e}_{kl})}{\sin \phi_{ijk} \sin \phi_{jkl}} $$
+$$ \cos \tau_{ijkl} = \frac{( e_{ij} \times e_{jk}) \cdot ( \mathbf{e}_{jk} \times \mathbf{e}_{kl})}{\sin \phi_{ijk} \sin \phi_{jkl}} $$
 
 Can you also determine the sign of the torsional angle?
 
