@@ -65,7 +65,7 @@ $$e^z_{ij} = - \frac{z_i - z_j}{R_ij}$$
 
 Calculate all possible out-of-plane angles. For example, the angle $\theta_{ijkl}$ for atom i out of the plane containing atoms j-k-l (with k as the central atom, connected to i) is given by
 
-$$ \sin \theta_{ijkl} = \frac{ \mathbf{e}_{kj} \times \mathbf{e}_{kl} }{ \sin \phi_{jkl} } \cdot \mathbf{e}_{ki} $$
+$$ \sin \theta_{ijkl} = \frac{ \pmb{e}_{kj} \times \mathbf{e}_{kl} }{ \sin \phi_{jkl} } \cdot \mathbf{e}_{ki} $$
 
 - [Hint 1](./hints/hint4-1.md): Memory allocation?
 - [Hint 2](./hints/hint4-2.md): Cross products
@@ -116,8 +116,6 @@ $$ I_{xy} = \sum\limits_i m_i x_i y_i, \quad I_{xz} = \sum\limits_i m_i x_i z_i,
 Diagonalize the inertia tensor to obtain the principal moments of inertia:
 
 $$ I_a \leq I_b \leq I_c $$
-
-$\require{mediawiki-texvc}$
 
 Report the moments of inertia in amu bohr<sup>2</sup>, amu $\AA^2$, and g cm<sup>2</sup>.
 
