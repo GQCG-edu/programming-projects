@@ -20,8 +20,8 @@ RUN wget \
 
 RUN conda update conda
 RUN conda --version
-RUN conda install -c psi4 psi4 psi4-dev 
-RUN conda install -c conda-forge cmake eigen julia
+RUN conda install -c psi4 psi4=1.5+e9f4d6d psi4-dev=1.5
+RUN conda install -c conda-forge cmake=3.16.0 eigen=3.4.0 julia=1.1.1
 
 RUN julia -e 'using Pkg; Pkg.update(); Pkg.add("PyCall"); Pkg.add("TensorOperations")' && \
     # precompile
