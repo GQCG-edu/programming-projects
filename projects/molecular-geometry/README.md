@@ -46,7 +46,7 @@ where x, y, and z are Cartesian coordinates and i and j denote atomic indices.
 
 Calculate all possible bond angles. For example, the angle, $\phi_{ijk}$, between atoms i-j-k, where j is the central atom is given by
 
-$$ \cos \phi_{ijk} = \mathbf{e}_{ji} \cdot \mathbf{e}_{jk} $$
+$\cos \phi_{ijk} = \mathbf{e}_{ji} \cdot \mathbf{e}_{jk}$
 
 where the $\mathbf{e}_{ij}$ are unit vectors between the atoms, e.g.
 
@@ -65,7 +65,7 @@ $$e^z_{ij} = - \frac{z_i - z_j}{R_ij}$$
 
 Calculate all possible out-of-plane angles. For example, the angle $\theta_{ijkl}$ for atom i out of the plane containing atoms j-k-l (with k as the central atom, connected to i) is given by
 
-$$ \sin \theta_{ijkl} = \frac{ \pmb{e}_{kj} \times \mathbf{e}_{kl} }{ \sin \phi_{jkl} } \cdot \mathbf{e}_{ki} $$
+$$ \sin \theta_{ijkl} = \frac{ \mathbf{e}_{kj} \times \mathbf{e}_{kl} }{ \sin \phi_{jkl} } \cdot \mathbf{e}_{ki} $$
 
 - [Hint 1](./hints/hint4-1.md): Memory allocation?
 - [Hint 2](./hints/hint4-2.md): Cross products
