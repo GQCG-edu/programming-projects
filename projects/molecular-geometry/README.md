@@ -32,7 +32,11 @@ After downloading the file to your computer (to a file called “geom.dat”, fo
 
 Calculate the interatomic distances using the expression:
 
-$$ R_{ij} = \sqrt{ (x_i - x_j)^2 + (y_i - y_j)^2 + (z_i - z_j)} $$
+$$ 
+\begin{equation}
+R_{ij} = \sqrt{ (x_i - x_j)^2 + (y_i - y_j)^2 + (z_i - z_j)} 
+\end{equation}
+$$
 
 where x, y, and z are Cartesian coordinates and i and j denote atomic indices.
 
@@ -46,7 +50,11 @@ where x, y, and z are Cartesian coordinates and i and j denote atomic indices.
 
 Calculate all possible bond angles. For example, the angle, $\phi_{ijk}$, between atoms i-j-k, where j is the central atom is given by
 
-$$\cos \phi_{ijk} = \~\mathbf{e}_{ji} \cdot \~\mathbf{e}_{jk} $$
+$$
+\begin{equation}
+\cos \phi_{ijk} = \~\mathbf{e}_{ji} \cdot \~\mathbf{e}_{jk}
+\end{equation}
+$$
 
 where the $\~\mathbf{e}_{ij}$ are unit vectors between the atoms, e.g.
 
